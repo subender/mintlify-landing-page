@@ -1,0 +1,15 @@
+:root {
+    --font-main: 'Inter', sans-serif;
+    --text-main-light: lab(100% 0 0);
+    --text-black-button: lab(2.42579% -.165291 -.470081);
+    --text-main-black: lab(2.42579% -.165291 -.470081);
+    --text-soft-black: lab(2.42579% -.165291 -.470081/.8);
+
+    --bg-soft: lab(100% 0 0 / .05);
+    --bg-dark: lab(2.42579% -.165291 -.470081/.15);
+
+    --color-brand:lab(51.3415% -41.5657 15.3527)
+
+    
+
+}

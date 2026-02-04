@@ -1,0 +1,5 @@
+body {
+    font-family: var(--main-font);
+    font-feature-settings: 'cv11'; 
+    -webkit-font-smoothing: antialiased; 
+}
