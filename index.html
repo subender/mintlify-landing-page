@@ -14,9 +14,9 @@
 </head>
 <body>
     <header class="navbar-header">
-        <div class="navbar-container">
-            <div class="navbar">
-                <span class="logo-holder">
+        <div class="navbar-container flex justify-between align-center">
+            <div class="navbar flex justify-between align-center">
+                <span class="logo-holder flex align-center justify-center">
                     <a href="#">
                         <img src="assets/companylogo.svg" alt="Mintlify Logo">
                         <span>mintlify</span>
@@ -24,7 +24,7 @@
                 </span>
 
                 <nav>
-                    <ul>
+                    <ul class="flex align-center justify-between">
                         <li><a href="#" class="nav-link">Resources</a></li>
                         <li><a href="#" class="nav-link">Documentation</a></li>
                         <li><a href="#" class="nav-link">Customers</a></li>
@@ -33,11 +33,15 @@
                     </ul>
                 </nav>
             </div>
-            <div class="nav-cta">
-               <a href="#">Contact sales</a>
-               <a href="#">Start for free</a>
+            <div class="nav-cta flex align-center justify-between">
+               <a href="#" class="btn btn-primary">Contact sales</a>
+               <a href="#" class="btn btn-secondary mr-3">Start for free</a>
             </div>
         </div>
     </header>
+
+    <section class="hero-section">
+        <div class="hero-bg"></div>
+    </section>
 </body>
 </html>
