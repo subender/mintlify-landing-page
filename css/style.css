@@ -5,6 +5,7 @@ body {
   /* background: #303030; */
   color: var(--text-main-light);
   font-weight: 500;
+  font-family: var(--font-main);
 }
 
 .navbar-header {
@@ -12,7 +13,7 @@ body {
   top: 0;
   left: 0;
   right: 0;
-  padding: 1.4rem 2.4rem;
+  padding: 1.6rem 2.4rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -20,7 +21,7 @@ body {
 }
 
 .navbar-container {
-  font-size: 1.4rem;
+  font-size: 1.5rem;
   position: relative;
   max-width: 105.6rem;
   width: 100%;
@@ -30,15 +31,14 @@ body {
 }
 
 .navbar {
-  gap: 13rem;
+  gap: 16.8rem;
 
   .logo-holder {
     gap: 0.4rem;
-    padding-left: 3rem;
   }
 
   .logo-holder span {
-    font-size: 2rem;
+    font-size: 2.5rem;
     font-weight: 700;
   }
 
@@ -59,8 +59,8 @@ body {
   gap: 0.5rem;
 
   img {
-    width: 1.6rem;
-    height: 1.6rem;
+    width: 2rem;
+    height: 2rem;
   }
 }
 
@@ -111,6 +111,94 @@ body {
   background-color: var(--text-main-light);
   color: var(--text-black-button);
   /* border: 1px solid var(--text-main-light); */
+}
+
+.hero-tag {
+  width: fit-content;
+  margin: 0 auto;
+  padding: 0.4rem 0.4rem;
+  border-radius: 100rem;
+  background-color: var(--bg-dark);
+  color: var(--text-main-light);
+  position: relative;
+  top: 9rem;
+  gap: 1rem;
+  font-size: 1.4rem;
+}
+
+.tag-icon {
+  width: 1.5rem;
+  height: 1.5rem;
+  filter: invert(1);
+  margin-right: 0.8rem;
+}
+
+.new-tag {
+  display: inline-block;
+  padding: 0.2rem 0.8rem;
+  font-size: 1.2rem;
+  border-radius: 100rem;
+  background-color: var(--color-brand);
+  text-transform: uppercase;
+}
+
+.hero-content {
+  padding-top: 12.4rem;
+  padding-bottom: 9.6rem;
+
+  h1 {
+    font-size: 6.4rem;
+    font-weight: 600;
+    max-width: 68.8rem;
+    width: 100%;
+    text-align: center;
+    line-height: 1.2;
+    letter-spacing: -1.28px;
+  }
+
+  p {
+    font-size: 1.8rem;
+    text-align: center;
+    line-height: 1.5;
+    max-width: 47.2rem;
+    margin-top: 2.4rem;
+    letter-spacing: -0.4px;
+  }
+
+  form {
+    max-width: 36rem;
+    width: 100%;
+    margin-top: 3.2rem;
+    padding: 0.4rem;
+    border-radius: 100rem;
+    background-color: lab(100% 0 0/0.15);
+    position: relative;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    border: 1px solid lab(100% 0 0/0.15);
+    backdrop-filter: blur(12px);
+  }
+
+  form input {
+    border: none;
+    background-color: transparent;
+    outline: none;
+    color: var(--text-main-light);
+    padding-left: 1.2rem;
+    height: 3.2rem;
+    width: 100%;
+    border-radius: 100rem;
+  }
+
+  form input::placeholder {
+    color: lab(100% 0 0/0.5);
+  }
+
+  form button {
+    min-width: fit-content;
+  }
 }
 
 .hero-section {
