@@ -249,6 +249,7 @@ body {
   color: lab(2.42579% -0.165291 -0.470081);
   width: 102.4rem;
   margin: 0 auto;
+  margin-bottom: 14.4rem;
 }
 
 .feature-heading {
@@ -286,4 +287,31 @@ body {
     font-weight: 500;
     line-height: 1.8rem;
   }
+
+  h3 {
+    font-size: 2.4rem;
+    font-weight: 500;
+    padding: 1.6rem 0;
+  }
+
+  p {
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    color: lab(2.42579% -0.165291 -0.470081 / 0.8);
+    text-wrap: balance;
+  }
+
+  .feature-card-skeleton {
+    height: 32rem;
+  }
+}
+
+.card-full {
+  padding: 4.8rem 3.2rem;
+  overflow: hidden;
+}
+
+.card3-img {
+  margin-top: 4rem;
+  height: 36rem;
 }
