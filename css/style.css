@@ -315,3 +315,264 @@ body {
   margin-top: 4rem;
   height: 36rem;
 }
+
+.features-2 {
+  background-color: lab(2.42579 -0.165291 -0.470081 / 0.03);
+  padding: 9.6rem 0;
+
+  .features-2-container {
+    max-width: 102.4rem;
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+
+.f2-row1 {
+  padding: 0 0 4.8rem 0;
+}
+
+.feature2-card-tag {
+  color: var(--color-brand);
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: 0.6px;
+  font-weight: 500;
+  line-height: 1.8rem;
+}
+
+.feature2-heading {
+  font-size: 4rem;
+  font-weight: 600;
+  padding: 1.6rem 0;
+  line-height: 1.2;
+  color: lab(2.42579% -0.165291 -0.470081);
+  text-wrap: balance;
+  max-width: 47.2rem;
+}
+
+.feature2-text {
+  color: lab(2.42579% -0.165291 -0.470081/0.8);
+  font-size: 1.6rem;
+}
+
+.btn-big {
+  display: inline-block;
+  padding: 0.7rem 2.4rem;
+  border-radius: 100rem;
+  background-color: var(--text-black-button);
+  color: var(--text-main-light);
+  font-size: 1.5rem;
+  border: 1px solid var(--text-black-button);
+  margin-top: auto;
+  font-weight: 500;
+}
+
+.heading-small {
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1.2;
+  color: var(--text-main-black);
+  margin-top: 3.2rem;
+  margin-bottom: 1.6rem;
+}
+
+.row2-icon {
+  width: 3.2rem;
+  height: 3.2rem;
+
+  img {
+    filter: invert(44%) sepia(76%) saturate(350%) hue-rotate(113deg)
+      brightness(97%) contrast(90%);
+  }
+}
+
+.row3-card {
+  margin-top: 6.8rem;
+  height: 51.8rem;
+  width: 100%;
+  border-radius: 2.4rem;
+  background-color: red;
+  background-image: url("../assets/door.svg");
+  background-size: 115%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.story-grid {
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 5rem;
+  margin-top: 4.2rem;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+}
+
+.story-btn {
+  display: inline-block;
+  width: 14rem;
+  height: 6.4rem;
+}
+
+.story-btn-img {
+  width: 77%;
+  height: auto;
+  object-fit: cover;
+}
+
+.story-btn:not(:first-child) .story-btn-img {
+  filter: grayscale(1) saturate(2) opacity(0.8);
+}
+
+.story-btn:first-child .story-btn-img {
+  width: 85%;
+}
+
+.customer-container {
+  padding: 4.8rem 3.2rem;
+}
+
+.customer-heading {
+  font-size: 4rem;
+  font-weight: 600;
+  padding: 1.6rem 0;
+  line-height: 1.2;
+  color: lab(2.42579% -0.165291 -0.470081);
+  text-wrap: balance;
+}
+
+.customer-text {
+  max-width: 62rem;
+}
+
+.carousel-row {
+  display: flex;
+  gap: 2.4rem;
+  flex-wrap: nowrap;
+}
+
+.carousel-card {
+  display: inline-block;
+  width: 39.4rem;
+  position: relative;
+}
+
+.carousel-img {
+  position: relative;
+  width: 39.4rem;
+  height: 29rem;
+  border-radius: 1.6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.carousel-bg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  overflow: hidden;
+  z-index: -1;
+  inset: 0;
+}
+
+.carousel-img-main {
+  width: 50%;
+  height: auto;
+  object-fit: cover;
+  filter: brightness(0) invert(1);
+}
+
+.read-more-btn {
+  font-size: 1.5rem;
+  color: var(--color-brand);
+  gap: 0.6rem;
+
+  img {
+    width: 1.2rem;
+    height: 1.2rem;
+    rotate: 270deg;
+    filter: invert(44%) sepia(76%) saturate(350%) hue-rotate(113deg)
+      brightness(97%) contrast(90%);
+  }
+}
+
+.carousel-text {
+  padding-top: 2rem;
+}
+
+.carousel-nav {
+  display: flex;
+  gap: 1.6rem;
+  margin-top: 4.8rem;
+}
+
+.carousel-nav-btn {
+  width: 2.6rem;
+  height: 2.6rem;
+  border-radius: 100rem;
+  background-color: var(--text-black-button);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.carousel-nav-btn img {
+  width: 1.2rem;
+  height: 1.2rem;
+  filter: invert(1);
+}
+
+.carousel-nav-btn .left {
+  rotate: 90deg;
+}
+.carousel-nav-btn .right {
+  rotate: -90deg;
+}
+
+.btn-left {
+  opacity: 0.5;
+}
+
+.cta {
+  padding: 12rem 2.4rem;
+  width: 100%;
+}
+
+.cta-container {
+  max-width: 98.8rem;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.cta-container h3 {
+  text-align: center;
+  line-height: 4.4rem;
+  max-width: 56rem;
+}
+
+.cta-text {
+  text-align: center;
+  max-width: 56rem;
+  font-size: 1.6rem;
+}
+
+.cta-btn {
+  display: flex;
+  justify-content: center;
+  gap: 0.8rem;
+  margin-top: 4.8rem;
+
+  a {
+    font-size: 1.6rem;
+  }
+}
+
+.btn-extra {
+  background-color: transparent;
+  color: var(--text-black-button);
+  border: 1px solid lab(2.42579% -0.165291 -0.470081 / 0.15);
+}
