@@ -391,11 +391,59 @@ body {
   height: 51.8rem;
   width: 100%;
   border-radius: 2.4rem;
-  background-color: red;
+  /* background-color: red; */
   background-image: url("../assets/door.svg");
   background-size: 115%;
   background-position: center;
   background-repeat: no-repeat;
+  padding: 5.8rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.row3-top {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1.6rem;
+  p,
+  h3,
+  .read-more-btn {
+    color: #fff;
+
+    img {
+      filter: invert(100%);
+    }
+  }
+
+  .door-card-heading {
+    font-size: 2.4rem;
+    font-weight: 600;
+    padding: 1.6rem 0;
+    line-height: 1.2;
+    text-wrap: balance;
+    max-width: 47.2rem;
+  }
+}
+
+.row3-bottom {
+  display: flex;
+  gap: 2.4rem;
+
+  h4 {
+    font-size: 4rem;
+    font-weight: 500;
+    line-height: 1.2;
+  }
+
+  p {
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+    text-wrap: balance;
+    max-width: 20rem;
+    color: oklab(0.999994 0.0000455677 0.0000200868 / 0.8);
+  }
 }
 
 .story-grid {
@@ -735,4 +783,75 @@ body {
 .aicpa-img {
   width: 8rem;
   height: 8rem;
+}
+
+.footer-row4 {
+  border-left: 0.3px solid lab(2.43% -0.12 -0.47 / 0.049);
+  border-right: 0.3px solid lab(2.43% -0.12 -0.47 / 0.049);
+  padding: 3.2rem 3.2rem 9.6rem 3.2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.status a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.4rem 1.2rem;
+  background: lab(2.42579% -0.165291 -0.470081/0.03);
+  border-radius: 1.6rem;
+  border: 1px solid lab(2.42579% -0.165291 -0.470081/0.03);
+}
+
+.status a img {
+  width: 1.2rem;
+  height: 1.2rem;
+  filter: invert(44%) sepia(76%) saturate(350%) hue-rotate(113deg)
+    brightness(97%) contrast(90%);
+}
+
+.status-text {
+  font-size: 1.3rem;
+  color: lab(2.42579% -0.165291 -0.470081);
+}
+
+.copyright {
+  font-size: 1.3rem;
+  font-weight: 300;
+  color: lab(2.42579% -0.165291 -0.470081/0.6);
+}
+
+.mode-switch {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  background-color: lab(2.42579% -0.165291 -0.470081/0.03);
+  padding: 0.4rem 1.2rem;
+  border-radius: 1.6rem;
+}
+
+.mode-switch div img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.system,
+.moon {
+  width: 1.1rem;
+  height: 1.1rem;
+  opacity: 0.5;
+}
+
+.sun {
+  padding: 5px;
+  background: #fff;
+  border-radius: 100%;
+  width: 2.2rem;
+  height: 2.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
